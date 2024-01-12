@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charsert="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Pricing page
+    </title>
+</head>
+<body>
+        <div class="top-banner">
+            <p class=""current-plan">start a free trial</p>
+            <p class=""plan-type"> For 1 day </p>
+        </div>
+        <div class="container">
+            <h1 class="title">Choose a plan</h1>
+            <div class="toggle-button" >
+                <span> Billed anually</span>
+                <input type="checkbox" class="toggle">
+                <span>Billed monthly</span>
+            </div>   
+        </div>
+        <div class="plans-view">
+            <!-- Starter Plan-->
+            <div class="plan" id="plan1">
+                <h1 class="plan-title">Starter </h1>
+                <h2 class="plan-price" id="starter-price">Rs.119 <span>/month</span></h2>
+                <ul class="card-plan">
+                    <li> 500 MAUs</li>
+                    <li> 3 projects</li>
+                    <li>Unlimited guide</li>
+                    <li>Unlimited flows</li>
+                    <li>Unlimited branded themes</li>
+                    <li>Email support</li>
+                </ul>
+                <button type="button" class="plan-button">choose Plan</button> 
+            </div> 
+            <!-- pro plan-->  
+            <div class="plan-active" id="plan2">
+                <h1 class="plan-title">Pro </h1>
+                <h2 class="plan-price" id="Pro-price">Rs.599 <span>/month</span></h2>
+                <select id="users"> 
+                    <option value="500"> 500 MAUs </option>
+                    <option value="1000">1000 MAUs</option>
+                    <option value="1200"> 1200 MAUs</option>
+                </select>
+                <span class=""note">Monthly Active users</span>
+                <ul class="card-plan">
+                    <li> All starter feaututred, Plus:</li>
+                    <li>Unlimited Projects</li> 
+                    <li>Unlimited fully customizable themes</li>  
+                    <li>A dedicated customer success  Manager</li>      
+                </ul>
+                <button type="button" class="active plan-button">choose Plan</button> 
+            </div> 
+            <!-- Enterprise Plan-->
+            <div class="plan" id="plan3" >
+                <h1 class="plan-title">Enterprise </h1>
+                <h2 class="plan-price" >Let's Talk!</h2>
+                <ul class="card-plan">
+                    <li> All Pro feaututred</li>
+                    <li>Unlimited MAUs</li> 
+                    <li>Dediacted environment</li>  
+                    <li>Enterprise account administration</li>
+                    <li>premium account and services</li>      
+                </ul>
+                <button type="button" class="plan-button">Contact Us</button> 
+            </div>     
+        </div>
+        <script src="main"></script>       
+    </body>
+</html>
