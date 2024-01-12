@@ -7,7 +7,9 @@ Users can explore the options,select a plan, and proceed with the checkout proce
 
 **Features**
 Responsive design:The pricing page is crafted to provide an optimal viewing experience across a variety of devices.
+
 Interactive elements:Javascript is utilized to enhance user interactions,such as plan selection and dynamic updates to the pricing information.
+
 Easy Customization:The HTML and CSS structure is straightforward, making it easy to customize and integrate into your projects.
 
 **Dependencies**
